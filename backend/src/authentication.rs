@@ -1,0 +1,3 @@
+struct LoginRequest {}
+
+struct LogourRequest {}
