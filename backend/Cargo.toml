@@ -1,8 +1,10 @@
 [package]
-name = "money"
-version "0.0.0"
+name = "project_m"
+version = "0.1.0"
 edition = "2021"
+publish = false
 
 [dependencies]
 actix-web = "4"
 chrono = "0.4"
+serde = { version = "1", features = [ "derive" ] }
